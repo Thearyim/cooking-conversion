@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Test Cooking Conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cooking Conversion</h1>
+      <p style="margin-bottom:20px;">Below are different forms that will allow you to convert different units of measurement to others.</p>
+      <div>
+        <h3>Convert <span id="gallonsToLitersHeader">Gallons to Liters</span></h3>
+        <form id="formOne">
+          <div class="form-group">
+            <label id="gallonsToLitersLabel" for="gallons">Gallons</label>
+            <input id="gallons" class="form-control" type="text"/>
+          </div>
+          <button type="submit" class="btn">Convert</button>
+        </form>
+        <div id="gallonsToLitersResult">
+          <p>Result (in liters): <span id="gallonsToLitersValue"></span> L</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

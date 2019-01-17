@@ -1,0 +1,9 @@
+#gallonsToLitersResult {
+  display: none;
+}
+
+#gallonsToLitersHeader {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
